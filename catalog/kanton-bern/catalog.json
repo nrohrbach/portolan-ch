@@ -1,0 +1,56 @@
+{
+  "type": "Catalog",
+  "id": "kanton-bern",
+  "stac_version": "1.1.0",
+  "title": "Kanton Bern — Amt für Geoinformation",
+  "description": "Geodata from the Canton of Bern, published by the Amt für Geoinformation (AGI). Static STAC catalog with GeoParquet assets for many products. Includes data on water, forest, administrative boundaries, and more.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Portolan CH"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Portolan CH"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/catalog.json",
+      "type": "application/json",
+      "title": "AGI Bern STAC Katalog — vollständig (autoritativ)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GNBE/collection.json",
+      "type": "application/json",
+      "title": "Gewässernetz Kanton Bern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NUPLWALD/collection.json",
+      "type": "application/json",
+      "title": "Statische Waldgrenzen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMGDE/collection.json",
+      "type": "application/json",
+      "title": "Gemeindedaten Kanton Bern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GSK25/collection.json",
+      "type": "application/json",
+      "title": "Gewässerschutzkarte"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "type": "Catalog",
+  "id": "bafu",
+  "stac_version": "1.1.0",
+  "title": "BAFU — Bundesamt für Umwelt",
+  "description": "Environmental monitoring data from the Swiss Federal Office for the Environment (BAFU/FOEN). Published via the BAFU data platform (data.bafu.admin.ch) as open government data. This sub-catalog references the BAFU STAC catalog which exposes datasets from the BAFU data platform S3 storage.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Portolan CH"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Portolan CH"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://nrohrbach.github.io/BafuDatenplattformSTAC/catalog.json",
+      "type": "application/json",
+      "title": "BAFU Datenplattform STAC — vollständiger Katalog (autoritativ)"
+    },
+    {
+      "rel": "child",
+      "href": "https://nrohrbach.github.io/BafuDatenplattformSTAC/water/groundwater/collection.json",
+      "type": "application/json",
+      "title": "Grundwasser"
+    },
+    {
+      "rel": "child",
+      "href": "https://nrohrbach.github.io/BafuDatenplattformSTAC/water/karst-groundwater/collection.json",
+      "type": "application/json",
+      "title": "Karstgrundwasser"
+    },
+    {
+      "rel": "child",
+      "href": "https://nrohrbach.github.io/BafuDatenplattformSTAC/water/nawa-trend/collection.json",
+      "type": "application/json",
+      "title": "NAWA Trend — Nationale Beobachtung Oberflächengewässer"
+    },
+    {
+      "rel": "child",
+      "href": "https://nrohrbach.github.io/BafuDatenplattformSTAC/water/observations/collection.json",
+      "type": "application/json",
+      "title": "Hydrologische Beobachtungen"
+    },
+    {
+      "rel": "child",
+      "href": "https://nrohrbach.github.io/BafuDatenplattformSTAC/radiation/nis-survey/collection.json",
+      "type": "application/json",
+      "title": "NIS-Umfrage — Nichtionisierende Strahlung"
+    }
+  ]
+}

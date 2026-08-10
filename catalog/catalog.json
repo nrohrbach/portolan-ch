@@ -1,0 +1,66 @@
+{
+  "type": "Catalog",
+  "id": "portolan-ch",
+  "stac_version": "1.1.0",
+  "title": "Portolan CH — Cloud-Native Swiss Geodata",
+  "description": "A proof-of-concept federated STAC catalog for Swiss federal and cantonal geodata. Inspired by the Portolan NL demo, this catalog federates data from federal agencies (swisstopo, BAFU) and Swiss cantons (Bern, Luzern, Basel-Stadt) using STAC, GeoParquet, and object storage — open, standards-based, and freely accessible.",
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.1.0/schema.json"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Portolan CH — Cloud-Native Swiss Geodata"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./swisstopo/catalog.json",
+      "type": "application/json",
+      "title": "swisstopo — Bundesamt für Landestopografie"
+    },
+    {
+      "rel": "child",
+      "href": "./bafu/catalog.json",
+      "type": "application/json",
+      "title": "BAFU — Bundesamt für Umwelt"
+    },
+    {
+      "rel": "child",
+      "href": "./kanton-bern/catalog.json",
+      "type": "application/json",
+      "title": "Kanton Bern — Amt für Geoinformation"
+    },
+    {
+      "rel": "child",
+      "href": "./kanton-luzern/catalog.json",
+      "type": "application/json",
+      "title": "Kanton Luzern — Geoinformation"
+    },
+    {
+      "rel": "child",
+      "href": "./kanton-basel-stadt/catalog.json",
+      "type": "application/json",
+      "title": "Kanton Basel-Stadt — Geodaten"
+    },
+    {
+      "rel": "describedby",
+      "href": "https://github.com/nrohrbach/portolan-ch/blob/main/README.md",
+      "type": "text/html",
+      "title": "Documentation"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/nrohrbach/portolan-ch",
+      "type": "text/html",
+      "title": "Source repository"
+    }
+  ],
+  "updated": "2026-08-10T00:00:00Z"
+}
