@@ -6,7 +6,7 @@ publishers:
   - id: swisstopo
     title: "swisstopo — Bundesamt für Landestopografie"
     description: "Geodata from the Swiss Federal Office of Topography, published via the Swiss Federal Geodata Infrastructure (BGDI / geo.admin.ch)."
-    type: stac_api
+    type: static_catalog
     endpoint: "https://data.geo.admin.ch/api/stac/v0.9/"
     collections_path: "collections"
     pagination: next_link
