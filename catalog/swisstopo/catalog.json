@@ -3,7 +3,7 @@
   "id": "swisstopo",
   "stac_version": "1.1.0",
   "title": "swisstopo — Bundesamt für Landestopografie",
-  "description": "Geodata from the Swiss Federal Office of Topography. Data is published via the Swiss Federal Geodata Infrastructure (BGDI) at data.geo.admin.ch. This sub-catalog references selected collections from the authoritative BGDI STAC API.",
+  "description": "Geodata from the Swiss Federal Office of Topography, published via the Swiss Federal Geodata Infrastructure (BGDI / geo.admin.ch).",
   "links": [
     {
       "rel": "root",
@@ -26,25 +26,14 @@
       "rel": "alternate",
       "href": "https://data.geo.admin.ch/api/stac/v0.9/",
       "type": "application/json",
-      "title": "BGDI STAC API — vollständiger Katalog (autoritativ)"
+      "title": "swisstopo — Bundesamt für Landestopografie — vollständiger Katalog (autoritativ)"
     },
     {
-      "rel": "child",
-      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissalti3d",
-      "type": "application/json",
-      "title": "SwissALTI3D — Digitales Höhenmodell"
-    },
-    {
-      "rel": "child",
-      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissimage-product",
-      "type": "application/json",
-      "title": "SWISSIMAGE — Luftbilder"
-    },
-    {
-      "rel": "child",
-      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bafu.alpweiden-herdenschutzhunde",
-      "type": "application/json",
-      "title": "BAFU: Alpweiden mit Herdenschutzhunden (via BGDI)"
+      "rel": "service-doc",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/api.html",
+      "type": "text/html",
+      "title": "API-Dokumentation"
     }
-  ]
+  ],
+  "updated": "2026-08-10T06:34:26Z"
 }

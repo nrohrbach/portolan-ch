@@ -1,17 +1,23 @@
-name: Deploy GitHub Pages
+name: Build & Deploy GitHub Pages
+
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "0 6 * * 1"   # Montags 06:00 UTC
   workflow_dispatch:
+
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
+
 jobs:
-  deploy:
+  build-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -19,12 +25,34 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Python setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten installieren
+        run: pip install requests pyyaml
+
+      - name: Kataloge generieren
+        run: python scripts/generate_catalogs.py
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add catalog/
+          git diff --staged --quiet || git commit -m "chore: Kataloge aktualisiert $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './catalog'
+          path: "./catalog"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

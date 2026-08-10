@@ -1,0 +1,62 @@
+# portolan-ch: STAC-Quellen
+# Füge neue Datenhalter hier hinzu — das Script generiert alles andere automatisch.
+
+publishers:
+
+  - id: swisstopo
+    title: "swisstopo — Bundesamt für Landestopografie"
+    description: "Geodata from the Swiss Federal Office of Topography, published via the Swiss Federal Geodata Infrastructure (BGDI / geo.admin.ch)."
+    type: stac_api
+    endpoint: "https://data.geo.admin.ch/api/stac/v0.9/"
+    collections_path: "collections"
+    pagination: next_link
+    filter:
+      id_prefix: "ch.swisstopo."
+    auth: none
+
+  - id: bafu
+    title: "BAFU — Bundesamt für Umwelt"
+    description: "Environmental monitoring data from the Swiss Federal Office for the Environment (BAFU/FOEN), published as open government data via data.bafu.admin.ch."
+    type: static_catalog
+    endpoint: "https://nrohrbach.github.io/BafuDatenplattformSTAC/catalog.json"
+    pagination: none
+    auth: none
+    extra_children:
+      - href: "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bafu.alpweiden-herdenschutzhunde"
+        title: "Alpweiden mit Herdenschutzhunden (BGDI)"
+      - href: "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bafu.amphibienwanderung-verkehrskonflikte"
+        title: "Amphibienwanderung Verkehrskonflikte (BGDI)"
+      - href: "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bafu.bundesinventare-auen"
+        title: "Bundesinventar der Auengebiete (BGDI)"
+      - href: "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bafu.bundesinventare-hochmoore"
+        title: "Bundesinventar der Hochmoore (BGDI)"
+      - href: "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bafu.bundesinventare-flachmoore"
+        title: "Bundesinventar der Flachmoore (BGDI)"
+
+  - id: kanton-bern
+    title: "Kanton Bern — Amt für Geoinformation"
+    description: "Geodata from the Canton of Bern, published by the Amt für Geoinformation (AGI). Static STAC catalog including GeoParquet assets for many products."
+    type: static_catalog
+    endpoint: "https://geofiles.be.ch/geoportal/pub/stac/de/catalog.json"
+    pagination: none
+    auth: none
+
+  - id: kanton-luzern
+    title: "Kanton Luzern — Geoinformation"
+    description: "Geodata from the Canton of Lucerne. Public OGD products are freely accessible without authentication. Restricted products (cadastral survey, utility networks) are excluded."
+    type: stac_api
+    endpoint: "https://daten.geo.lu.ch/api/stac/v1.0/"
+    collections_path: "collections"
+    pagination: offset
+    filter:
+      exclude_auth: true
+    auth: none
+
+  - id: kanton-basel-stadt
+    title: "Kanton Basel-Stadt — Geodaten"
+    description: "Geodata from the Canton of Basel-Stadt. Collections cover planning, environment, transport, health, and society. Download requires OIDC authentication (contact geo@bs.ch)."
+    type: stac_api
+    endpoint: "https://api.geo.bs.ch/stac/v1/"
+    collections_path: "collections"
+    pagination: offset
+    auth: none

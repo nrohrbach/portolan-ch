@@ -20,6 +20,18 @@
       "type": "application/json"
     },
     {
+      "rel": "describedby",
+      "href": "https://github.com/nrohrbach/portolan-ch/blob/main/README.md",
+      "type": "text/html",
+      "title": "Documentation"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/nrohrbach/portolan-ch",
+      "type": "text/html",
+      "title": "Source repository"
+    },
+    {
       "rel": "child",
       "href": "./swisstopo/catalog.json",
       "type": "application/json",
@@ -48,19 +60,7 @@
       "href": "./kanton-basel-stadt/catalog.json",
       "type": "application/json",
       "title": "Kanton Basel-Stadt — Geodaten"
-    },
-    {
-      "rel": "describedby",
-      "href": "https://github.com/nrohrbach/portolan-ch/blob/main/README.md",
-      "type": "text/html",
-      "title": "Documentation"
-    },
-    {
-      "rel": "vcs",
-      "href": "https://github.com/nrohrbach/portolan-ch",
-      "type": "text/html",
-      "title": "Source repository"
     }
   ],
-  "updated": "2026-08-10T00:00:00Z"
+  "updated": "2026-08-10T06:34:27Z"
 }

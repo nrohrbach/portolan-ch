@@ -3,7 +3,7 @@
   "id": "kanton-luzern",
   "stac_version": "1.1.0",
   "title": "Kanton Luzern — Geoinformation",
-  "description": "Geodata from the Canton of Lucerne. Public OGD products are freely accessible via STAC API without authentication. Restricted products (cadastral survey, utility networks) require login and are not referenced here.",
+  "description": "Geodata from the Canton of Lucerne. Public OGD products are freely accessible without authentication. Restricted products (cadastral survey, utility networks) are excluded.",
   "links": [
     {
       "rel": "root",
@@ -26,19 +26,14 @@
       "rel": "alternate",
       "href": "https://daten.geo.lu.ch/api/stac/v1.0/",
       "type": "application/json",
-      "title": "Kanton Luzern STAC API — vollständig (autoritativ)"
+      "title": "Kanton Luzern — Geoinformation — vollständiger Katalog (autoritativ)"
     },
     {
-      "rel": "child",
-      "href": "https://daten.geo.lu.ch/api/stac/v1.0/collections/ZONPLANX_COL_V3",
-      "type": "application/json",
-      "title": "Nutzungsplanung: Zonenpläne"
-    },
-    {
-      "rel": "child",
-      "href": "https://daten.geo.lu.ch/api/stac/v1.0/collections/BODKAXXX_COL_V2",
-      "type": "application/json",
-      "title": "Bodenkarten"
+      "rel": "service-doc",
+      "href": "https://daten.geo.lu.ch/api/stac/v1.0/api.html",
+      "type": "text/html",
+      "title": "API-Dokumentation"
     }
-  ]
+  ],
+  "updated": "2026-08-10T06:34:27Z"
 }

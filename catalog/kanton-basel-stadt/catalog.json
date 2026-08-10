@@ -3,7 +3,7 @@
   "id": "kanton-basel-stadt",
   "stac_version": "1.1.0",
   "title": "Kanton Basel-Stadt — Geodaten",
-  "description": "Geodata from the Canton of Basel-Stadt. Note: The STAC API requires OpenID Connect (OIDC) authentication for all endpoints, including public OGD collections. Direct child links are therefore not included in this federated catalog. Contact geo@bs.ch for access instructions.",
+  "description": "Geodata from the Canton of Basel-Stadt. Collections cover planning, environment, transport, health, and society. Download requires OIDC authentication (contact geo@bs.ch).",
   "links": [
     {
       "rel": "root",
@@ -26,14 +26,14 @@
       "rel": "alternate",
       "href": "https://api.geo.bs.ch/stac/v1/",
       "type": "application/json",
-      "title": "Kanton Basel-Stadt STAC API (autoritativ, Auth erforderlich)"
+      "title": "Kanton Basel-Stadt — Geodaten — vollständiger Katalog (autoritativ)"
     },
     {
-      "rel": "describedby",
+      "rel": "service-doc",
       "href": "https://api.geo.bs.ch/stac/v1/api.html",
       "type": "text/html",
-      "title": "API-Dokumentation (OpenAPI)"
+      "title": "API-Dokumentation"
     }
   ],
-  "portolan:note": "OIDC authentication required. Collections not directly linked. See alternate URL for full catalog access after authentication via geo@bs.ch."
+  "updated": "2026-08-10T06:34:27Z"
 }
