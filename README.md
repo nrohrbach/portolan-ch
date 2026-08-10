@@ -4,10 +4,10 @@ A proof-of-concept federated STAC catalog for Swiss federal geodata,
 inspired by [Portolan NL](https://source.coop/cholmes/portolan-nl).
 
 **Live Catalog:**
-https://nrohrbach.github.io/portolan-ch/catalog.json
+[https://nrohrbach.github.io/portolan-ch/catalog.json](https://nrohrbach.github.io/portolan-ch/catalog/catalog.json)
 
 **Browse in STAC Browser:**
-https://radiantearth.github.io/stac-browser/#/external/nrohrbach.github.io/portolan-ch/catalog.json
+https://radiantearth.github.io/stac-browser/#/external/nrohrbach.github.io/portolan-ch/catalog/catalog.json
 
 ## Structure
 
