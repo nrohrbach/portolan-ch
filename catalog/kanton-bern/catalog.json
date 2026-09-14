@@ -27,7 +27,1279 @@
       "href": "https://geofiles.be.ch/geoportal/pub/stac/de/catalog.json",
       "type": "application/json",
       "title": "Kanton Bern — Amt für Geoinformation — vollständiger Katalog (autoritativ)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMBAKA/collection.json",
+      "type": "application/json",
+      "title": "Betreibungs- und Konkursämter"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMBIZ/collection.json",
+      "type": "application/json",
+      "title": "Berufsberatungs- und Informationszentren"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMEB/collection.json",
+      "type": "application/json",
+      "title": "Regionen Erziehungsberatung (EB)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMFAK/collection.json",
+      "type": "application/json",
+      "title": "Fischereiaufsichtskreise"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMFORG/collection.json",
+      "type": "application/json",
+      "title": "Führungsorgane"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMGBA/collection.json",
+      "type": "application/json",
+      "title": "Grundbuchämter"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMGDE/collection.json",
+      "type": "application/json",
+      "title": "Gemeindedaten"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMKESB/collection.json",
+      "type": "application/json",
+      "title": "KESB Kreiseinteilung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMKG/collection.json",
+      "type": "application/json",
+      "title": "Administrativer Perimeter der Kirchgemeinden"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMNFG/collection.json",
+      "type": "application/json",
+      "title": "Nachführungsgeometer/in"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRAV/collection.json",
+      "type": "application/json",
+      "title": "AVA Amt für Arbeitslosenversicherung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMREA/collection.json",
+      "type": "application/json",
+      "title": "Eichkreise"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRG/collection.json",
+      "type": "application/json",
+      "title": "Regionalgerichte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRJA/collection.json",
+      "type": "application/json",
+      "title": "Regionale Jugendanwaltschaften"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRP/collection.json",
+      "type": "application/json",
+      "title": "Raumplanungsregionen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRSA/collection.json",
+      "type": "application/json",
+      "title": "Regionale Staatsanwaltschaften"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRSB/collection.json",
+      "type": "application/json",
+      "title": "Regionale Schlichtungsbehörden"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRSI/collection.json",
+      "type": "application/json",
+      "title": "Regionale Schulinspektorate"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRSTA/collection.json",
+      "type": "application/json",
+      "title": "Regierungsstatthalterämter"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRVK/collection.json",
+      "type": "application/json",
+      "title": "Regionale Verkehrskonferenzen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMRZMG/collection.json",
+      "type": "application/json",
+      "title": "Regionale Zwangsmassnahmengerichte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMTBA/collection.json",
+      "type": "application/json",
+      "title": "Tiefbauamtkreise"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMVERW/collection.json",
+      "type": "application/json",
+      "title": "Verwaltungsregionen und Verwaltungskreise"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMVPG/collection.json",
+      "type": "application/json",
+      "title": "Administrative Einteilung Versorgungsplanung Gesundheitswesen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMWABT/collection.json",
+      "type": "application/json",
+      "title": "Waldabteilungen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMWAK/collection.json",
+      "type": "application/json",
+      "title": "Wildhüteraufsichtskreise"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMWKR/collection.json",
+      "type": "application/json",
+      "title": "Wahlkreise"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ADMZORG/collection.json",
+      "type": "application/json",
+      "title": "Zivilschutzorganisationen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/AEDSTO/collection.json",
+      "type": "application/json",
+      "title": "AED-Standorte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/AGGOBJ/collection.json",
+      "type": "application/json",
+      "title": "Immobilienportfolio des Amts für Grundstücke und Gebäude"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/AMO/collection.json",
+      "type": "application/json",
+      "title": "Stand der amtl. Vermessung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ANGFISCH/collection.json",
+      "type": "application/json",
+      "title": "Angelfischerei"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ARCHINV/collection.json",
+      "type": "application/json",
+      "title": "Archäologisches Inventar"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ARTSPOT/collection.json",
+      "type": "application/json",
+      "title": "Artenhotspots"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ASHORNIS/collection.json",
+      "type": "application/json",
+      "title": "Asiatische Hornisse"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ATR/collection.json",
+      "type": "application/json",
+      "title": "Versorgungsrouten für Ausnahmetransporte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/AZB/collection.json",
+      "type": "application/json",
+      "title": "Arbeitszonenbewirtschaftung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BALISKBS/collection.json",
+      "type": "application/json",
+      "title": "Kataster der belasteten Standorte (KBS)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BATHYBIE/collection.json",
+      "type": "application/json",
+      "title": "Bathymetrie Bielersee"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BATHYBRI/collection.json",
+      "type": "application/json",
+      "title": "Bathymetrie Brienzersee"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BATHYTHU/collection.json",
+      "type": "application/json",
+      "title": "Bathymetrie Thunersee"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BAUINV/collection.json",
+      "type": "application/json",
+      "title": "Bauinventar"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BEENYX15/collection.json",
+      "type": "application/json",
+      "title": "Neue Koordinaten LV95"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BERNCLIM/collection.json",
+      "type": "application/json",
+      "title": "BernClim-Daten Pflanzenphänologie, Schneeandauer, Nebelhäufigkeit"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BODANTHR/collection.json",
+      "type": "application/json",
+      "title": "Hinweise auf anthropogene Böden"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BOHFQUAL/collection.json",
+      "type": "application/json",
+      "title": "Hinweis auf Fruchtfolgeflächenqualität"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BOHIKA/collection.json",
+      "type": "application/json",
+      "title": "Bodenbelastungshinweiskarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BOKA/collection.json",
+      "type": "application/json",
+      "title": "Bodenkarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BOKADSM/collection.json",
+      "type": "application/json",
+      "title": "Bodenkarte DSM"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BOPUDAT/collection.json",
+      "type": "application/json",
+      "title": "Bodenpunktdaten"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/BZG/collection.json",
+      "type": "application/json",
+      "title": "Bilanzgebiete"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/DENKSCHO/collection.json",
+      "type": "application/json",
+      "title": "Kantonale Denkmalschutzobjekte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/DIPANU/collection.json",
+      "type": "application/json",
+      "title": "Parzellennummern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/EINKOMM/collection.json",
+      "type": "application/json",
+      "title": "Durchschnittliches Reineinkommen und Reinvermögen pro Gemeinde"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/EINSCHIF/collection.json",
+      "type": "application/json",
+      "title": "Einschränkung Binnenschifffahrt"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ERDSOND/collection.json",
+      "type": "application/json",
+      "title": "Erdwärmesonden"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ESP/collection.json",
+      "type": "application/json",
+      "title": "Entwicklungsschwerpunkte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/EUMZUGBE/collection.json",
+      "type": "application/json",
+      "title": "Stand elektronischer Umzug (eUmzug)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/FEUGEB/collection.json",
+      "type": "application/json",
+      "title": "Inventar der Flachmoore"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/FFF/collection.json",
+      "type": "application/json",
+      "title": "Fruchtfolgeflächen des Kantons Bern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/FILAICH/collection.json",
+      "type": "application/json",
+      "title": "Fischlaichgebiete der drei grossen Seen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/FORSTREV/collection.json",
+      "type": "application/json",
+      "title": "Forstreviere des Kantons Bern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/FREMDVKG/collection.json",
+      "type": "application/json",
+      "title": "Fremdenverkehrsgemeinden"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/FRK/collection.json",
+      "type": "application/json",
+      "title": "Felsreliefkarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GANALYSE/collection.json",
+      "type": "application/json",
+      "title": "Gefährdungsanalyse der Gemeinden"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GBKREIS/collection.json",
+      "type": "application/json",
+      "title": "Grundbuchkreise"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GBO/collection.json",
+      "type": "application/json",
+      "title": "Geschützte botanische Objekte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GEBADR/collection.json",
+      "type": "application/json",
+      "title": "Gebäudeadressen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GEBHOEHE/collection.json",
+      "type": "application/json",
+      "title": "Gebäudehöhe"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GENGBKR/collection.json",
+      "type": "application/json",
+      "title": "Grundbuchkreise generalisiert"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GENGRZ5/collection.json",
+      "type": "application/json",
+      "title": "Politische Grenzen generalisiert"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GEOGRADT/collection.json",
+      "type": "application/json",
+      "title": "Geologische Rohstoffkarte ADT"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GEOSOND/collection.json",
+      "type": "application/json",
+      "title": "Geologische Sondierungen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GEOTREG/collection.json",
+      "type": "application/json",
+      "title": "Geotope von regionaler Bedeutung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GESCHIEB/collection.json",
+      "type": "application/json",
+      "title": "Sanierung Geschiebehaushalt"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GEWRAG/collection.json",
+      "type": "application/json",
+      "title": "Gewässerraum Grundlagen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GEWRGNHM/collection.json",
+      "type": "application/json",
+      "title": "Genehmigte Gewässerräume"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GGO/collection.json",
+      "type": "application/json",
+      "title": "Geschützte geologische Objekte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GKOAFR/collection.json",
+      "type": "application/json",
+      "title": "Fliessrichtungen zur Gefährdungskarte Oberflächenabfluss"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GMDEFUS/collection.json",
+      "type": "application/json",
+      "title": "Praxisbeispiele Gemeinde Fusionsprojekte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GNBE/collection.json",
+      "type": "application/json",
+      "title": "Gewässernetz des Kantons Bern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GREIKA/collection.json",
+      "type": "application/json",
+      "title": "Grundeigentumskategorien"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GRENZ5/collection.json",
+      "type": "application/json",
+      "title": "Politische Grenzen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GRUDAEXP/collection.json",
+      "type": "application/json",
+      "title": "GRUDA AV Export"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GSK25/collection.json",
+      "type": "application/json",
+      "title": "Gewässerschutzkarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GW25/collection.json",
+      "type": "application/json",
+      "title": "Grundwasservorkommen in Lockergestein"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/GWN/collection.json",
+      "type": "application/json",
+      "title": "Grundwassernutzung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/HINDKAT/collection.json",
+      "type": "application/json",
+      "title": "Hinderniskartei Strassennetz bzgl. Ausnahmetransporte "
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/HKDTMAV/collection.json",
+      "type": "application/json",
+      "title": "Höhenkurven und Höhenkoten DTMAV"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/HMVEG/collection.json",
+      "type": "application/json",
+      "title": "Vegetation der Hochmoore"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/HYDROMN/collection.json",
+      "type": "application/json",
+      "title": "Kantonales hydrometrisches Messstellennetz"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/HYDROPUF/collection.json",
+      "type": "application/json",
+      "title": "Hydrologische Hochmoor-Pufferzonen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/ILV/collection.json",
+      "type": "application/json",
+      "title": "Standorte der Leistungserbringung in den Bereichen Alter und Behinderung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KIBEAGS/collection.json",
+      "type": "application/json",
+      "title": "Betreuungsangebote im Gutscheinsystem"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KLEK/collection.json",
+      "type": "application/json",
+      "title": "Kantonales Landschaftsentwicklungskonzept (KLEK)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KLIMAANK/collection.json",
+      "type": "application/json",
+      "title": "Analysekarte zum kantonalen Klimamodell"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KLIMAMOD/collection.json",
+      "type": "application/json",
+      "title": "Szenarien des kantonalen Klimamodells"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KLIMAPHK/collection.json",
+      "type": "application/json",
+      "title": "Planungshinweiskarte zum kantonalen Klimamodell (PHK)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KMNETZ/collection.json",
+      "type": "application/json",
+      "title": "Kilometernetz"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KOBESTFV/collection.json",
+      "type": "application/json",
+      "title": "Konsultationsbereichskarte Störfallverordnung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KOMRPE/collection.json",
+      "type": "application/json",
+      "title": "Kommunale Richtpläne Energie"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KRPE/collection.json",
+      "type": "application/json",
+      "title": "Kantonaler Richtplan, Elemente Energie"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KRPPARK/collection.json",
+      "type": "application/json",
+      "title": "Kantonaler Richtplan, Elemente Naturpärke"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KRPRM/collection.json",
+      "type": "application/json",
+      "title": "Kantonaler Richtplan, Regionale Massnahmen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KRPS/collection.json",
+      "type": "application/json",
+      "title": "Kantonaler Richtplan, Elemente Siedlung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KRPVE/collection.json",
+      "type": "application/json",
+      "title": "Kantonaler Richtplan, Elemente Ver- und Entsorgung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KRPVRK/collection.json",
+      "type": "application/json",
+      "title": "Kantonaler Richtplan, Elemente Verkehr"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KRPWILD/collection.json",
+      "type": "application/json",
+      "title": "Kantonaler Richtplan, Elemente Wildtiere"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KSVB/collection.json",
+      "type": "application/json",
+      "title": "Verkehrsbeschränkungen auf Kantonstrassen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KSVD/collection.json",
+      "type": "application/json",
+      "title": "Kantonsstrassenverkehrsdaten"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KULTLAND/collection.json",
+      "type": "application/json",
+      "title": "Kulturland (ohne Fruchtfolgeflächen)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LANDKULP/collection.json",
+      "type": "application/json",
+      "title": "Landwirtschaftliche Kulturen (provisorisch)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LANDKULT/collection.json",
+      "type": "application/json",
+      "title": "Landwirtschaftliche Kulturen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LBEZUS/collection.json",
+      "type": "application/json",
+      "title": "Digitales Höhenmodell LIDAR Zusatzdaten"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LBROHPW/collection.json",
+      "type": "application/json",
+      "title": "Digitales Höhenmodell LIDAR (Rohdaten), Punktwolke"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LDOM50CM/collection.json",
+      "type": "application/json",
+      "title": "Digitales Oberflächenmodell LIDAR 50cm (historisiert)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LDTM50CM/collection.json",
+      "type": "application/json",
+      "title": "Digitales Terrainmodell LIDAR 50cm (historisiert)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LDTMABL1/collection.json",
+      "type": "application/json",
+      "title": "DTM LiDAR Ableitung Exposition, Neigung, Relief 1m (historisiert)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LKMETA/collection.json",
+      "type": "application/json",
+      "title": "Übersicht Leitungskataster"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LREGION/collection.json",
+      "type": "application/json",
+      "title": "Übersicht der LIDAR-Befliegungen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LRW/collection.json",
+      "type": "application/json",
+      "title": "Landrichtwerte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/LWEK74/collection.json",
+      "type": "application/json",
+      "title": "Landwirtschaftliche Eignungskarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/MAKROPHY/collection.json",
+      "type": "application/json",
+      "title": "Wasserpflanzen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/MHP/collection.json",
+      "type": "application/json",
+      "title": "Moorhydrologischer Hinweisperimeter"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/MOORDTKT/collection.json",
+      "type": "application/json",
+      "title": "Bundesinventar der Moorlandschaften, Detail Kanton"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/MOPUBE/collection.json",
+      "type": "application/json",
+      "title": "Amtliche Vermessung vereinfacht"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/MWK/collection.json",
+      "type": "application/json",
+      "title": "Mietwertkategorien"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NAEHRPUF/collection.json",
+      "type": "application/json",
+      "title": "Nährstoffpufferzonen zu nationalen und kantonalen Naturinventaren"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NATGEFKA/collection.json",
+      "type": "application/json",
+      "title": "Naturgefahrenkarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NATURAUM/collection.json",
+      "type": "application/json",
+      "title": "Naturraumgliederung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NE/collection.json",
+      "type": "application/json",
+      "title": "Nachhaltige Entwicklung in den Gemeinden"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NFFS/collection.json",
+      "type": "application/json",
+      "title": "Einführung des neuen Fallführungssystems im Kanton Bern (NFFS)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NGKAT/collection.json",
+      "type": "application/json",
+      "title": "Naturereigniskataster"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NGKATLGT/collection.json",
+      "type": "application/json",
+      "title": "Naturereigniskataster light"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NOMKL/collection.json",
+      "type": "application/json",
+      "title": "Nomenklatur"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NSG/collection.json",
+      "type": "application/json",
+      "title": "Naturschutzgebiete"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NUPLA/collection.json",
+      "type": "application/json",
+      "title": "Kommunale Nutzungsplanung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NUPLKUEO/collection.json",
+      "type": "application/json",
+      "title": "Kantonale Nutzungsplanung - Überbauungsordnungen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/NUPLWALD/collection.json",
+      "type": "application/json",
+      "title": "Statische Waldgrenzen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/OEIBE/collection.json",
+      "type": "application/json",
+      "title": "Ökologische Infrastruktur"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/OEKOMORF/collection.json",
+      "type": "application/json",
+      "title": "Ökomorphologie der Fliessgewässer"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/OEKOMSEE/collection.json",
+      "type": "application/json",
+      "title": "Ökomorphologie der Seeufer"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/OEREBSTA/collection.json",
+      "type": "application/json",
+      "title": "Stand einer Gemeinde im ÖREB-Kataster"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/OEVSCHUL/collection.json",
+      "type": "application/json",
+      "title": "Volksschulen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/OEVTP/collection.json",
+      "type": "application/json",
+      "title": "Öffentlicher Verkehr"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/OKJA/collection.json",
+      "type": "application/json",
+      "title": "Offene Kinder- und Jugendarbeit im Kanton Bern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/OREGION/collection.json",
+      "type": "application/json",
+      "title": "Übersicht der Orthofoto-Mosaiken"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/PF/collection.json",
+      "type": "application/json",
+      "title": "Permafrost"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/PGRHMBD/collection.json",
+      "type": "application/json",
+      "title": "Probabilistische Gefahren- und Risikogrundlagen Hangmuren, Basisdaten"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/PLANZONE/collection.json",
+      "type": "application/json",
+      "title": "Planungszonen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/PROPFL/collection.json",
+      "type": "application/json",
+      "title": "Problempflanzen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/QOPERI/collection.json",
+      "type": "application/json",
+      "title": "Quarantäneorganismen abgegrenzte Gebiete"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/QUALIGW/collection.json",
+      "type": "application/json",
+      "title": "Qualität Grundwasser"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/QUALIOG/collection.json",
+      "type": "application/json",
+      "title": "Qualität der Oberflächengewässer"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/QUELLEBR/collection.json",
+      "type": "application/json",
+      "title": "Lebensraum Quellen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/REBEN/collection.json",
+      "type": "application/json",
+      "title": "Reben"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/REGKONF/collection.json",
+      "type": "application/json",
+      "title": "Regionalkonferenzen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/RELIGION/collection.json",
+      "type": "application/json",
+      "title": "Religionslandkarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/REVIT/collection.json",
+      "type": "application/json",
+      "title": "Strategische Revitalisierungsplanung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/REVITG/collection.json",
+      "type": "application/json",
+      "title": "Revitalisierungsplanung Grundlagen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/RODUNGEN/collection.json",
+      "type": "application/json",
+      "title": "Rodungen und Rodungsersatz"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/RSADT/collection.json",
+      "type": "application/json",
+      "title": "Regionale Standorte Abbau, Deponie, Transporte (ADT)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/RSLK/collection.json",
+      "type": "application/json",
+      "title": "Regionale Siedlungs- und Landschaftsthemen (Teile der RGSK)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/RWP/collection.json",
+      "type": "application/json",
+      "title": "Regionale Waldplanung - Waldfunktionenkarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SANFISCH/collection.json",
+      "type": "application/json",
+      "title": "Sanierung Fischwanderung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SANWAKRA/collection.json",
+      "type": "application/json",
+      "title": "Sanierung Wasserkraftanlagen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SBK/collection.json",
+      "type": "application/json",
+      "title": "Schutzbauten Naturgefahren"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SCHWALL/collection.json",
+      "type": "application/json",
+      "title": "Sanierung Schwall-Sunk"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SEEV/collection.json",
+      "type": "application/json",
+      "title": "Bojen und Konzessionsobjekte Seeverkehr"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SEEVSP/collection.json",
+      "type": "application/json",
+      "title": "Sachplan Seeverkehr"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SEIN/collection.json",
+      "type": "application/json",
+      "title": "Siedlungsentwicklung nach innen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SFG/collection.json",
+      "type": "application/json",
+      "title": "See- und Flussuferschutz gemäss SFG"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SHK/collection.json",
+      "type": "application/json",
+      "title": "Schutzwald"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SOELWA/collection.json",
+      "type": "application/json",
+      "title": "Öffentlich-rechtliche Sicherungen von öffentlichen Leitungen (SöL)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SPBD/collection.json",
+      "type": "application/json",
+      "title": "Sachplan Biodiversität"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SPBDMIT/collection.json",
+      "type": "application/json",
+      "title": "Sachplan Biodiversität, Mitwirkungsverfahren"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SPITAL/collection.json",
+      "type": "application/json",
+      "title": "Spitäler und Kliniken"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SPORTANL/collection.json",
+      "type": "application/json",
+      "title": "Sportanlagen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/STEINV/collection.json",
+      "type": "application/json",
+      "title": "Steininventare"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/STEUERN/collection.json",
+      "type": "application/json",
+      "title": "Steueranlagen pro Gemeinde"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/STREU/collection.json",
+      "type": "application/json",
+      "title": "Streusiedlungsgebiete"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/STROMNET/collection.json",
+      "type": "application/json",
+      "title": "Kataster der Netzgebiete"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/SWISSALT/collection.json",
+      "type": "application/json",
+      "title": "Digitales Höhenmodell swissALTI3D"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/TOURDEST/collection.json",
+      "type": "application/json",
+      "title": "Tourismusdestinationen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/TOURORTE/collection.json",
+      "type": "application/json",
+      "title": "Tourismusorte"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/TRALIN/collection.json",
+      "type": "application/json",
+      "title": "Tracer Verbindungslinien"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/TRENDSPO/collection.json",
+      "type": "application/json",
+      "title": "Einschränkungen für sportliche Aktivitäten auf bernischen Gewässern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/TROSEC/collection.json",
+      "type": "application/json",
+      "title": "Wasserentnahmen aus Oberflächengewässern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/TROSTA/collection.json",
+      "type": "application/json",
+      "title": "Inventar der Trockenwiesen und -weiden"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/UESN/collection.json",
+      "type": "application/json",
+      "title": "Übergeordnetes Strassennetz des Kantons Bern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/UP5/collection.json",
+      "type": "application/json",
+      "title": "Übersichtsplan"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/UZP/collection.json",
+      "type": "application/json",
+      "title": "Übersichtszonenplan 1:25'000"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/VELOS/collection.json",
+      "type": "application/json",
+      "title": "Sachplan Velowegnetz"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/VERNETZ/collection.json",
+      "type": "application/json",
+      "title": "Vernetzungsprojekte nach ÖQV"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/VIDEO/collection.json",
+      "type": "application/json",
+      "title": "Videoüberwachung im öffentlichen Raum"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/VLNPLAN/collection.json",
+      "type": "application/json",
+      "title": "Verkehrslagenotenpläne"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/VSZ/collection.json",
+      "type": "application/json",
+      "title": "Versickerungszonen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WABAUPLA/collection.json",
+      "type": "application/json",
+      "title": "Kantonaler Wasserbauplan"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WALDBIO/collection.json",
+      "type": "application/json",
+      "title": "Biodiversitätsförderung im Wald (inkl. Waldreservate)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WALDINFO/collection.json",
+      "type": "application/json",
+      "title": "Waldinformation"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WALDVHS/collection.json",
+      "type": "application/json",
+      "title": "Vegetationshöhenstufen"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WANDERNS/collection.json",
+      "type": "application/json",
+      "title": "Sachplankarte Wanderroutennetz"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WBMFVSS/collection.json",
+      "type": "application/json",
+      "title": "Feuerverbotsschilder-Standorte (Waldbrandmanagement)"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WERSCHL/collection.json",
+      "type": "application/json",
+      "title": "Grundlagenkarte Walderschliessung"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WILDRAUM/collection.json",
+      "type": "application/json",
+      "title": "Wildräume des Kantons Bern"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WILDRZ/collection.json",
+      "type": "application/json",
+      "title": "Ruhezonen für Wildtiere"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WILDSG/collection.json",
+      "type": "application/json",
+      "title": "Wildschutzgebiete"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WILDSGA/collection.json",
+      "type": "application/json",
+      "title": "Wildeinflussgutachten"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WIND/collection.json",
+      "type": "application/json",
+      "title": "Windgeschwindigkeit"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WNI/collection.json",
+      "type": "application/json",
+      "title": "Waldnaturinventar"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WNS/collection.json",
+      "type": "application/json",
+      "title": "Wassernutzungsstrategie"
+    },
+    {
+      "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/WSP/collection.json",
+      "type": "application/json",
+      "title": "Waldstrassenplan"
     }
   ],
-  "updated": "2026-08-10T06:34:27Z"
+  "updated": "2026-09-14T11:41:49Z"
 }

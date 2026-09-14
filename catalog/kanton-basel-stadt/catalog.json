@@ -33,7 +33,577 @@
       "href": "https://api.geo.bs.ch/stac/v1/api.html",
       "type": "text/html",
       "title": "API-Dokumentation"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AFBA",
+      "type": "application/json",
+      "title": "Abfuhrzonen Stadt Basel"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AFRB",
+      "type": "application/json",
+      "title": "Abfuhrzonen (Gemeinden Riehen und Bettingen)"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/ALGZ",
+      "type": "application/json",
+      "title": "Allmendverwaltung Gebührenzonen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/ANTR",
+      "type": "application/json",
+      "title": "Ausnahmetransportrouten"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/APFH",
+      "type": "application/json",
+      "title": "Alterspflegeheime"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/ARCI",
+      "type": "application/json",
+      "title": "Archäologische Informationsstellen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AREA",
+      "type": "application/json",
+      "title": "Arealentwicklungen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/ARZP",
+      "type": "application/json",
+      "title": "Archäologischer Zonenplan"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/ASTI",
+      "type": "application/json",
+      "title": "Abgabestellen der Tigermückenbekämpfung"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AVBE",
+      "type": "application/json",
+      "title": "Amtliche Vermessung Bodenbedeckung & Einzelobjekte"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AVBS",
+      "type": "application/json",
+      "title": "Amtliche Vermessung Basel-Stadt (Interlis)"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AVFA",
+      "type": "application/json",
+      "title": "Amtliche Vermessung Fixpunkte & Höhen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AVGB",
+      "type": "application/json",
+      "title": "Amtliche Vermessung Gebäudeadressen & PLZ"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AVKE",
+      "type": "application/json",
+      "title": "Amtliche Vermessung Kilometereinteilung"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AVNO",
+      "type": "application/json",
+      "title": "Amtliche Vermessung Nomenklatur"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AVPP",
+      "type": "application/json",
+      "title": "Parzellenplan"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AVPZ",
+      "type": "application/json",
+      "title": "Amtliche Vermessung Parzellen und andere rechtliche Abgrenzungen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/AVRO",
+      "type": "application/json",
+      "title": "Amtliche Vermessung Rohrleitungen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BGFA",
+      "type": "application/json",
+      "title": "Bruttogeschossflächen auf Blockbasis"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BGFH",
+      "type": "application/json",
+      "title": "Historische Bruttogeschossfläche auf Blockbasis"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BIFO",
+      "type": "application/json",
+      "title": "Basel Info Grundkarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BIPO",
+      "type": "application/json",
+      "title": "Basel Info Points of Interest"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BNSA",
+      "type": "application/json",
+      "title": "Bienenstände"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BOHA",
+      "type": "application/json",
+      "title": "Bohrkataster"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BPBS",
+      "type": "application/json",
+      "title": "Spezielle Bauvorschriften und Bebauungspläne im Kanton Basel-Stadt"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BWBA",
+      "type": "application/json",
+      "title": "Bau- & Strassenlinien Basel-Stadt"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BWBE",
+      "type": "application/json",
+      "title": "Bau- & Strassenlinien Bettingen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BWRI",
+      "type": "application/json",
+      "title": "Bau- & Strassenlinien Riehen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/DEFI",
+      "type": "application/json",
+      "title": "Defibrillatoren"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/DMVS",
+      "type": "application/json",
+      "title": "Denkmalverzeichnis"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/ELBE",
+      "type": "application/json",
+      "title": "Elternberatung"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/FFFL",
+      "type": "application/json",
+      "title": "Fruchtfolgefläche"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/FGSK",
+      "type": "application/json",
+      "title": "Fokusgebiete Stadtklimakonzept"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GEAI",
+      "type": "application/json",
+      "title": "Gebietseinteilung Arbeitsinspektorat"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GEBK",
+      "type": "application/json",
+      "title": "Gebietseinteilung Baukontrolle"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GEDP",
+      "type": "application/json",
+      "title": "Gebietseinteilung Bauberatung Denkmalpflege"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GEEF",
+      "type": "application/json",
+      "title": "Gebietseinteilung Energiefachstellen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GEFP",
+      "type": "application/json",
+      "title": "Gebietseinteilung Feuerpolizei"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GEVT",
+      "type": "application/json",
+      "title": "Gebietseinteilung Verkehrstechnik"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GMON",
+      "type": "application/json",
+      "title": "Geschwindigkeitsmonitoring"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GWAR",
+      "type": "application/json",
+      "title": "Kantonaler Nutzungsplan Gewässerraum"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GWSK",
+      "type": "application/json",
+      "title": "Gewässerschutzkarten"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GWST",
+      "type": "application/json",
+      "title": "Grundwasserstand und -temperatur"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/HBBS",
+      "type": "application/json",
+      "title": "Hochbauprojekte aus Verwaltungs- und Finanzvermögen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/ISOS",
+      "type": "application/json",
+      "title": "Schützenswerte Ortsbilder nach ISOS"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/ISWB",
+      "type": "application/json",
+      "title": "Inventar der schützenswerten Bauten"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/ISWE",
+      "type": "application/json",
+      "title": "Inventar der schützenswerten Bauten: Erarbeitungsstatus"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/IWBF",
+      "type": "application/json",
+      "title": "IWB Fernwärme-Versorgungsgebiet"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/KATK",
+      "type": "application/json",
+      "title": "Katholische Kirchenkreise"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/KIGN",
+      "type": "application/json",
+      "title": "Inventar der geschützten Naturobjekte"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/KOES",
+      "type": "application/json",
+      "title": "Karten der öffentlichen Statistik"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/LSBA",
+      "type": "application/json",
+      "title": "Lärmempfindlichkeitsstufen Stadt Basel"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/LSBE",
+      "type": "application/json",
+      "title": "Lärmempfindlichkeitsstufen Bettingen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/LSRI",
+      "type": "application/json",
+      "title": "Lärmempfindlichkeitsstufen Riehen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/LWBT",
+      "type": "application/json",
+      "title": "Landwirtschaftsbetriebe"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/MZOO",
+      "type": "application/json",
+      "title": "Biologischer Gewässerzustand (Makrozoobenthos)"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/NAER",
+      "type": "application/json",
+      "title": "Naturersatzflächen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/NFTP",
+      "type": "application/json",
+      "title": "Notfalltreffpunkte"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/NPBA",
+      "type": "application/json",
+      "title": "Zonenplan Stadt Basel"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/NPBE",
+      "type": "application/json",
+      "title": "Zonenplan Bettingen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/NPRI",
+      "type": "application/json",
+      "title": "Zonenplan Riehen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/POLP",
+      "type": "application/json",
+      "title": "Polizeiposten"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/POLW",
+      "type": "application/json",
+      "title": "Politische Wahlkreise"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/PRKG",
+      "type": "application/json",
+      "title": "Parkierung"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/PZBA",
+      "type": "application/json",
+      "title": "Planungszone Stadt Basel"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/PZBE",
+      "type": "application/json",
+      "title": "Planungszone Bettingen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/PZRI",
+      "type": "application/json",
+      "title": "Planungszone Riehen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/QTBS",
+      "type": "application/json",
+      "title": "Quartierangebote"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/REWA",
+      "type": "application/json",
+      "title": "Rechtlicher Wald"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/RPLK",
+      "type": "application/json",
+      "title": "Richtplankarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SAAN",
+      "type": "application/json",
+      "title": "Sanitäre Anlagen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SETV",
+      "type": "application/json",
+      "title": "Schwammstadt-Eignung nach Tagesverkehr (DTV 2023: Fz/Tag)"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SGSF",
+      "type": "application/json",
+      "title": "Spielgruppen mit Sprachförderung"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SMSC",
+      "type": "application/json",
+      "title": "Schallpegelmessungen (Smart Climate)"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SPBE",
+      "type": "application/json",
+      "title": "Sport und Bewegung"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SPDM",
+      "type": "application/json",
+      "title": "Stadtplan Detailmassstab"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SPTL",
+      "type": "application/json",
+      "title": "Spitäler"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/STNA",
+      "type": "application/json",
+      "title": "Strassennamen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/STRE",
+      "type": "application/json",
+      "title": "Statistische Raumeinheiten"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/STWE",
+      "type": "application/json",
+      "title": "Strassen und Wege"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/STWG",
+      "type": "application/json",
+      "title": "Statische Waldgrenzen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SVER",
+      "type": "application/json",
+      "title": "Signalisierte Velorouten"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/TAFA",
+      "type": "application/json",
+      "title": "Tagesfamilien pro Bezirk"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/TAKI",
+      "type": "application/json",
+      "title": "Tagesheime und Kitas"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/TIGA",
+      "type": "application/json",
+      "title": "Tigermückenbekämpfungsgebiet"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/TRVE",
+      "type": "application/json",
+      "title": "Teilrichtplan Velo 2026 (in Vernehmlassung)"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/UEKA",
+      "type": "application/json",
+      "title": "Übersichtskarte"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/VEAB",
+      "type": "application/json",
+      "title": "Veloabstellplätze"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/VEFE",
+      "type": "application/json",
+      "title": "Veloführungselemente an Kreuzungen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/VEPU",
+      "type": "application/json",
+      "title": "Velopumpen"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/VESP",
+      "type": "application/json",
+      "title": "Velostadtplan"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/VSBS",
+      "type": "application/json",
+      "title": "Vektorstadtplan"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/WABA",
+      "type": "application/json",
+      "title": "Wohnanteilplan Stadt Basel"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/WLDR",
+      "type": "application/json",
+      "title": "Waldreservate"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/XMAS",
+      "type": "application/json",
+      "title": "Weihnachtsmarktstandorte"
     }
   ],
-  "updated": "2026-08-10T06:34:27Z"
+  "updated": "2026-09-14T13:48:34Z"
 }
