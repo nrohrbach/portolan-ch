@@ -594,6 +594,12 @@
     },
     {
       "rel": "child",
+      "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KJSA/collection.json",
+      "type": "application/json",
+      "title": "Angebote für Kinder mit besonderem Förder- und Schutzbedarf gemäss KFSG"
+    },
+    {
+      "rel": "child",
       "href": "https://geofiles.be.ch/geoportal/pub/stac/de/KLEK/collection.json",
       "type": "application/json",
       "title": "Kantonales Landschaftsentwicklungskonzept (KLEK)"
@@ -1301,5 +1307,5 @@
       "title": "Waldstrassenplan"
     }
   ],
-  "updated": "2026-09-14T11:41:49Z"
+  "updated": "2026-10-26T12:11:51Z"
 }

@@ -186,6 +186,12 @@
     },
     {
       "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/BPIS",
+      "type": "application/json",
+      "title": "Boulevardplan Innenstadt"
+    },
+    {
+      "rel": "child",
       "href": "https://api.geo.bs.ch/stac/v1/collections/BWBA",
       "type": "application/json",
       "title": "Bau- & Strassenlinien Basel-Stadt"
@@ -402,6 +408,12 @@
     },
     {
       "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/PLAB",
+      "type": "application/json",
+      "title": "Planschbecken"
+    },
+    {
+      "rel": "child",
       "href": "https://api.geo.bs.ch/stac/v1/collections/POLP",
       "type": "application/json",
       "title": "Polizeiposten"
@@ -495,6 +507,12 @@
       "href": "https://api.geo.bs.ch/stac/v1/collections/SPTL",
       "type": "application/json",
       "title": "Spitäler"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SSBA",
+      "type": "application/json",
+      "title": "Schulstandorte (Gemeinde Basel)"
     },
     {
       "rel": "child",
@@ -605,5 +623,5 @@
       "title": "Weihnachtsmarktstandorte"
     }
   ],
-  "updated": "2026-09-14T13:48:34Z"
+  "updated": "2026-10-26T17:07:07Z"
 }
