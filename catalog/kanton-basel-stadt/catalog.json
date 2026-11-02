@@ -222,6 +222,12 @@
     },
     {
       "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/EGMP",
+      "type": "application/json",
+      "title": "Eigentumswohnungen Medianpreise"
+    },
+    {
+      "rel": "child",
       "href": "https://api.geo.bs.ch/stac/v1/collections/ELBE",
       "type": "application/json",
       "title": "Elternberatung"
@@ -237,6 +243,12 @@
       "href": "https://api.geo.bs.ch/stac/v1/collections/FGSK",
       "type": "application/json",
       "title": "Fokusgebiete Stadtklimakonzept"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GASL",
+      "type": "application/json",
+      "title": "Gastro-Sekundärlärm"
     },
     {
       "rel": "child",
@@ -279,6 +291,12 @@
       "href": "https://api.geo.bs.ch/stac/v1/collections/GMON",
       "type": "application/json",
       "title": "Geschwindigkeitsmonitoring"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/GPRB",
+      "type": "application/json",
+      "title": "Grundlagen der Parkraumbewirtschaftung"
     },
     {
       "rel": "child",
@@ -345,6 +363,12 @@
       "href": "https://api.geo.bs.ch/stac/v1/collections/KOES",
       "type": "application/json",
       "title": "Karten der öffentlichen Statistik"
+    },
+    {
+      "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/LSAA",
+      "type": "application/json",
+      "title": "Lichtsignalanlagen"
     },
     {
       "rel": "child",
@@ -474,6 +498,12 @@
     },
     {
       "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/SCHF",
+      "type": "application/json",
+      "title": "Schifffahrt"
+    },
+    {
+      "rel": "child",
       "href": "https://api.geo.bs.ch/stac/v1/collections/SETV",
       "type": "application/json",
       "title": "Schwammstadt-Eignung nach Tagesverkehr (DTV 2023: Fz/Tag)"
@@ -564,6 +594,12 @@
     },
     {
       "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/TRFW",
+      "type": "application/json",
+      "title": "Teilrichtplan Fuss- und Wanderwege 2019"
+    },
+    {
+      "rel": "child",
       "href": "https://api.geo.bs.ch/stac/v1/collections/TRVE",
       "type": "application/json",
       "title": "Teilrichtplan Velo 2026 (in Vernehmlassung)"
@@ -612,6 +648,12 @@
     },
     {
       "rel": "child",
+      "href": "https://api.geo.bs.ch/stac/v1/collections/WAWE",
+      "type": "application/json",
+      "title": "Wanderwege"
+    },
+    {
+      "rel": "child",
       "href": "https://api.geo.bs.ch/stac/v1/collections/WLDR",
       "type": "application/json",
       "title": "Waldreservate"
@@ -623,5 +665,5 @@
       "title": "Weihnachtsmarktstandorte"
     }
   ],
-  "updated": "2026-10-26T17:07:07Z"
+  "updated": "2026-11-02T14:55:10Z"
 }
